@@ -46,6 +46,9 @@ table {
    --h3-color: #5468E7;
    --p-color: #F5F5F5;
   }
+  .footer-links ul{
+   list-style: none;
+  }
   /* !Code */
  body{
     font-family: "Lexend Deca", sans-serif;
@@ -82,5 +85,49 @@ table {
  }
  /* !right side */
  .link-section{
-  margin-top: 95px;
+   display: flex;
+   gap: 85px;
+   margin-top: 95px;
+ }
+ .footer-links ul{
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+   max-width: 138px;
+   height: auto;
+   color: var(--p-color);
+   font-size: 14px;
+   line-height: 23px;
+   letter-spacing: 1%;
+ }
+ .footer-links h2{
+   padding-bottom: 16px;
+   color: var(--h3-color);
+   font-size: 24px;
+   line-height: 30px;
+ }
+ .footer-email-link ul{
+   max-width: 268px;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+   color: var(--p-color);
+   font-size: 14px;
+   line-height: 23px;
+   letter-spacing: 1%;
+ }
+ .footer-email-link h2{
+   padding-bottom: 16px;
+   color: var(--h3-color);
+   font-size: 24px;
+   line-height: 30px;
+ }
+ .footer-email-link input{
+   width: 268px;
+   height: 46px;
+   border-radius: 4px;
+   border: none;
+   background-color: #F5F5F53D;
+   color: var(--p-color);
  }
