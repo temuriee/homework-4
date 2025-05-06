@@ -52,7 +52,7 @@ table {
   /* !Code */
  body{
     font-family: "Lexend Deca", sans-serif;
-    
+    background-color: black;
  }
  .main-container{
   background-color: var(--bg-color);
@@ -131,3 +131,15 @@ table {
    background-color: #F5F5F53D;
    color: var(--p-color);
  }
+.arrow-ul{
+   position: relative;
+}
+.img-arrow{
+   display: flex;
+   width: 24px;
+   height: 24px;
+   position: absolute;
+   top: 50%;
+   right: 20px;
+   transform: translateY(-50%);
+}
