@@ -53,14 +53,15 @@ table {
  body{
     font-family: "Lexend Deca", sans-serif;
     background-color: black;
+    display: flex;
  }
  .main-container{
   background-color: var(--bg-color);
   max-width: 1440px;
   height: 500px;
-  margin: 0 auto;
   padding: 0 140px;
- }
+  margin: 0 auto ;
+ }  
  .topside-container{
   display: flex;
  }
@@ -143,3 +144,4 @@ table {
    right: 20px;
    transform: translateY(-50%);
 }
+ 
